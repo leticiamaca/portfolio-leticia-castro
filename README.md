@@ -10,10 +10,10 @@ Aqui você pode conhecer um pouco mais sobre mim, meus projetos e minhas habilid
 
 - React.js
 - JavaScript (ES6+)
-- HTML5 + CSS3
+- HTML5
+- -TailwindCss
 - Vite ou Create React App
-- Styled Components / TailwindCSS
-- React Router Dom
+- Swiper slide
 
 ---
 
@@ -55,10 +55,10 @@ Here you can learn more about me, my projects, and the technologies I work with.
 
 - React.js
 - JavaScript (ES6+)
-- HTML5 + CSS3
+- HTML5
+- -TailwindCss
 - Vite ou Create React App
-- Styled Components / TailwindCSS
-- React Router Dom
+- Swiper slide
 
 ## 📸 Features
 
