@@ -1,5 +1,6 @@
 import react, {useState, useEffect} from "react";
 
+
 //importando imagens dos projetos
 import Faiup from "../assets/img/faiup.png"
 import OfficeRun from "../assets/img/office.png"
@@ -10,27 +11,27 @@ import Magitech from "../assets/img/magitech.png"
 const projectsData = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    shortDesc: "Plataforma completa de vendas online",
-    fullDesc: "Sistema de e-commerce completo desenvolvido com React, Node.js e MongoDB. Inclui carrinho de compras, pagamento integrado, painel administrativo e sistema de avaliações.",
+    title: "OfficeRun",
+    shortDesc: "Jogo 2D Desenvolvido na Unity",
+    fullDesc: "Office Run é um jogo 2D top-down em pixel art inspirado em Pac-Man, desenvolvido como uma metáfora lúdica sobre o desperdício de insumos administrativos nas empresas, como clipes, post-its e lápis. Apesar de serem materiais simples, eles representam milhões em gastos e impactos ambientais quando somados. A proposta é refletir sobre isso de forma divertida e interativa. O jogador controla um colaborador que trabalha sozinho à noite, após todos os colegas terem ido embora. O objetivo é coletar os insumos espalhados pelo escritório sem ser pego pelo fantasma que ronda o local. Se o fantasma encostar no jogador, é Game Over.",
     image: OfficeRun,
-    link: "https://exemplo.com/ecommerce"
+    link: "https://leticiamaca.itch.io/officerun"
   },
   {
     id: 2,
-    title: "Dashboard Analytics",
-    shortDesc: "Dashboard de análise de dados em tempo real",
-    fullDesc: "Dashboard interativo para visualização de dados empresariais com gráficos dinâmicos, filtros avançados e exportação de relatórios. Construído com React, D3.js e TailwindCSS.",
+    title: "Magitech",
+    shortDesc: "Plataforma de cursos",
+    fullDesc: "O MagiTech é uma plataforma de cursos online gamificada, desenvolvida como Trabalho de Conclusão de Curso (TCC), com foco em educação prática, imersiva e de baixo custo de manutenção. O principal diferencial da plataforma é a integração de um módulo “mão na massa” em Realidade Virtual (VR), permitindo que o aluno pratique os conhecimentos adquiridos em um ambiente virtual gamificado, seguro e interativo. OBS: Essa versão foca apenas no front-end do projeto, não sendo possível entrar em contato com o backend, estou trabalhando em atualizações futuras, caso deseje ver o projeto rodando sugiro que baixe em zip e siga o passo a passo no arquivo .txt dentro do projeto",
     image: Magitech,
-    link: "https://exemplo.com/dashboard"
+    link: "https://magitech-apresentacao-final-i1y1adghq-leticiamacas-projects.vercel.app/"
   },
   {
     id: 3,
-    title: "App de Gerenciamento",
-    shortDesc: "Sistema de gestão de tarefas e projetos",
-    fullDesc: "Aplicativo web para gerenciamento de projetos e tarefas com sistema de notificações, colaboração em equipe, timeline de atividades e integração com calendário.",
+    title: "FAIUP",
+    shortDesc: "Landing page para uma empresa de gamificação",
+    fullDesc: "Projeto de landing page responsiva criado como parte de uma empresa fictícia voltada para soluções em gamificação. O site foi desenvolvido com foco em design moderno, responsividade e identidade visual única. Este projeto foi desenvolvido com HTML, CSS e JavaScript, apresentando uma proposta de empresa fictícia chamada FaiUp, voltada para gamificação em ambientes educacionais e corporativos. A identidade visual, nome, logotipo e ilustrações foram todas criadas por mim, incluindo a arte autoral que aparece no site.",
     image: Faiup,
-    link: "https://exemplo.com/taskmanager"
+    link: "https://leticiamaca.github.io/faiup/"
   },
   // {
   //   id: 4,
@@ -175,7 +176,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <div className="min-h-screen flex flex-column items-center">
+    <div className="min-h-screen flex flex-column items-center" >
       <div className="max-w-7xl mx-auto">
         {/* Cabeçalho da Seção */}
         <div className="text-center">

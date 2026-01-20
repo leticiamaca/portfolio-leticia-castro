@@ -1,18 +1,17 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
-import Banner from "../src/components/banner";
-import Carrosel from "../src/components/carrosel"
-import Projects from "../src/components/Projects"
+import Home from "./pages/HomePage";
+import Projects from "./components/projectsPage";
+import Contato from "./pages/Contato"
+
 function App() {
   return (
-    <>
-      <Banner />
-      <Carrosel />
-      <Projects />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/projetos" element={<Projects />} />
+      <Route path="/contato" element={<Contato />} />
+    </Routes>
   );
 }
 
