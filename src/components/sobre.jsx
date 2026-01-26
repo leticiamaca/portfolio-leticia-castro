@@ -1,4 +1,7 @@
 import React from "react";
+
+
+//img sobre
 import eu from "../assets/img/eu.jpg";
 
 const Sobre = () => {
