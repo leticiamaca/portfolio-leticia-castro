@@ -1,14 +1,13 @@
-import React from 'react'
-import Banner from "../components/banner";
-import Carrosel from "../components/carrosel";
-import Tecnologias from "../components/tecnologiasSection";
-import Footer from "../components/footer";
+import React from "react";
+import Banner from "../components/Banner";
+import Carrosel from "../components/Carrosel";
+import Tecnologias from "../components/TecnologiasSection";
+import Footer from "../components/Footer";
 
-import Formacao from "../components/formacao";
-import Sobre from "../components/sobre";
-import BannerCTA from "../components/bannerCTA"
-import Contato from "../components/contatoCTA"
-
+import Formacao from "../components/Formacao";
+import Sobre from "../components/Sobre";
+import BannerCTA from "../components/BannerCTA";
+import Contato from "../components/ContatoCTA";
 
 const HomePage = () => {
   return (
@@ -23,6 +22,6 @@ const HomePage = () => {
       <Footer />
     </>
   );
-}
+};
 
-export default HomePage
+export default HomePage;

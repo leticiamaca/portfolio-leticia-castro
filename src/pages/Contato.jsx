@@ -1,13 +1,14 @@
-import React from 'react'
-import Form from "../components/form"
-import Footer from "../components/footer"
+import React from "react";
+import Form from "../components/Form";
+import Footer from "../components/Footer";
 
 const Contato = () => {
-  return <>   
-  <Form />
-   <Footer />
-  </>
+  return (
+    <>
+      <Form />
+      <Footer />
+    </>
+  );
+};
 
-}
-
-export default Contato
+export default Contato;
