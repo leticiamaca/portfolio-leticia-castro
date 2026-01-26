@@ -3,7 +3,7 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser"
 import {Link} from "react-router-dom"
 
-const form = () => {
+const   ContactForm = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
@@ -24,7 +24,12 @@ const templateParams = {
 
 //emailJs com o service ID que é gerado automaticamente e o template ID que também é gerado automaticamente. 
 //templateParams e a nossa public key
-emailjs.send("service_gx969nh", "template_7voj1rw", templateParams, "UPcERsk2sUjzJLkki")
+emailjs.send(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  templateParams,
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+)
 
 //emailJs é assincrono então podemos utilizar o .then() que é o método usado em casos de sucesso:
 .then((response) => {
@@ -158,4 +163,4 @@ setMessage('')
   </>
 }
 
-export default form
+export default ContactForm

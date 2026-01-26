@@ -11,7 +11,7 @@ import Post from "../assets/img/Post.png"
 import va from "../assets/img/va.png"
 
 
-const fotos = () => {
+const Fotos = () => {
   const projects = [
     {
       id: 1,
@@ -141,4 +141,4 @@ const fotos = () => {
   );
 };
 
-export default fotos;
+export default Fotos;

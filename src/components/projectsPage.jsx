@@ -6,7 +6,7 @@ import Menu from "../components/menu"
 import Footer from '../components/footer';
 import Contato from "../components/contatoCTA"
 
-const projectsPage = () => {
+const ProjectsPage = () => {
   return <>
     <div className="absolute top-6 left-6 z-10">
       <Link to="/" className="group relative inline-block">
@@ -29,4 +29,4 @@ const projectsPage = () => {
   
 }
 
-export default projectsPage
+export default ProjectsPage
